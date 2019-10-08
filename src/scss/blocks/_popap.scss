@@ -1,0 +1,115 @@
+.overlay{
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 10, 0.6);
+    z-index: 2;
+    display: none;
+}
+.popap{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    padding: 40px;
+    max-width: 916px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: #eff3f8;    
+    display: none;
+    @include media(768){
+        height: 100vh;
+        overflow-y: scroll;
+    }
+    @include media(500){
+        padding: 15px;
+        padding-bottom: 50px;
+    }
+    &__close{
+        padding: 30px 0;
+        width: 100%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .close{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            top: 20px;
+            right: 20px;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            span{
+                display: block;
+                width: 100%;
+                height: 2px;
+                background: #7a7a7a;
+                transform: rotate(45deg);
+                &:after{
+                    position: absolute;
+                    content: "";
+                    display: block;
+                    width: 100%;
+                    height: 2px;
+                    background: #7a7a7a;
+                    transform: rotate(-90deg);        
+                }
+            }
+        }
+    }
+    .background{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    &__left{
+        position: relative;
+        height: 369px;
+        width: 50%;
+        padding: 50px 30px;
+        background: white;
+        @include media(768){
+            width: 100%;
+            margin-bottom: 50px;
+        }
+    }
+    &__right{
+        width: 50%;
+        padding: 0 20px;
+        @include media(768){
+            width: 100%;
+            padding: 0;
+        }
+
+        &-title{
+            color: #8a1a1f;
+            font-size: 31px;
+            font-weight: 900;
+            letter-spacing: -0.18px;
+            line-height: 21px;   
+            margin-bottom: 24px;        
+        }
+        &-desc{
+            color: #919191;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.06px;
+            line-height: 21px;   
+            margin-bottom: 20px;   
+        }
+        &-price{
+            color: #8a1a1f;
+            font-weight: 600;
+            line-height: 41px;
+            font-size: 28px;   
+            margin-bottom: 32px;     
+        }
+    }
+}

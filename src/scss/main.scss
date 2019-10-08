@@ -1,0 +1,34 @@
+@import '../../node_modules/normalize.css/normalize';
+
+
+
+@import './help/_flex';
+@import './help/_mixins';
+
+@import './layout/_base';
+@import './layout/_header';
+@import './layout/_why';
+@import './layout/_products';
+@import './layout/_special';
+@import './layout/_work';
+@import './layout/about';
+@import './layout/contacts';
+@import './layout/feedback';
+@import './layout/footer';
+
+@import './fonts/_fonts';
+@import './fonts/_icomoon';
+
+
+@import './blocks/_menu';
+@import './blocks/btn';
+@import './blocks/_popap';
+@import './blocks/_social__icons';
+@import './blocks/_custom-slick';
+@import './blocks/_send-ok';
+@import './blocks/_back-call';
+@import './blocks/_privacy';
+
+
+@import '../../node_modules/slick-carousel/slick/slick-theme.scss';
+@import '../../node_modules/slick-carousel/slick/slick.scss';

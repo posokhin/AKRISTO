@@ -1,0 +1,103 @@
+.menu{
+    &__list{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        justify-content: center;
+    }
+    &__item{
+        padding: 0 22px;
+    }
+    &__link{
+        color: #000000;
+        font-family: "Segoe UI";
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.46px;      
+    }
+}
+.header__m-menu{
+    display: none;
+    padding-top: 140px;
+    position: fixed;
+    overflow-y: scroll;
+    z-index: 9;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #eef2f7;
+    .close{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.27);
+        border-radius: 21px;
+        background-color: #8a1a1f;
+        cursor: pointer;
+        span{
+            display: block;
+            width: 16px;
+            height: 2px;
+            border-radius: 2px;
+            background-color: #ffffff;
+            transform: rotate(45deg);
+            &::after{
+                content: "";
+                display: block;
+                width: 16px;
+                height: 2px;
+                border-radius: 2px;
+                background-color: #ffffff;
+                transform: rotate(90deg);           
+            }
+        }
+    }
+    .social{
+        margin-top: 10%;
+        margin-bottom: 20px;
+        width: 100%;
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            box-shadow: 0 4px 19px rgba(0, 0, 0, 0.12);
+            border-radius: 21px;
+            background-color: #ffffff;   
+            margin-right: 25px;
+            &:last-child{
+                margin-right: 0;
+            }  
+            i{
+                color: #8a1a1f;
+
+                &.icon-vk{
+                    font-size:13px;
+                }
+                &.icon-facebook{
+                    font-size: 21px;
+                }
+                &.icon-youtube{
+                    font-size: 16px;
+                }
+            }     
+        }
+    }
+    &__list{
+        display: flex;
+        flex-direction: column;
+        padding-left: 33px;
+    }
+    &__link{
+        display: block;
+        color: #202020;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.46px;
+        padding: 20px 0;
+    }
+}

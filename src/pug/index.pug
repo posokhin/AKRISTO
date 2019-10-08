@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Akristo
+        link(rel="stylesheet", href="style.css")
+        link(rel="shortcut icon", href="/favicon.ico", type="image/x-icon")
+    body
+        .wrapper
+            header.header
+                a(href="")
+                    img(src="img/logo-wave.svg", alt="").header--wave--left
+                .header__content-top.row-wrap.aic
+                    a(href="").header__logo
+                        //img(src="img/logo.svg", alt="")
+                    nav.menu.header__menu
+                        ul.menu__list.row
+                            li.menu__item
+                                a.menu__link(href="#about" id="") О нас
+                            li.menu__item
+                                a.menu__link(href="#catalog" id="") Каталог
+                            li.menu__item
+                                a.menu__link(href="#work" id="") Как мы работаем
+                            li.menu__item
+                                a.menu__link(href="#feedback" id="") Оставить заявку
+                            li.menu__item
+                                a.menu__link(href="#contacts" id="") Контакты
+                    .header__phone
+                        a(href="tel:8 800 770 74 99") 8 800 770 74 99
+                    .header__feedback
+                        a.header__btn-phone(href='')
+                            i.icon-phone
+                            span Заказать обратный звонок
+                        a.header__btn-mail(href="mailto:akristo@mail.ru")
+                            i.icon-mail
+                        .header__burger
+                            span
+                            span
+                            span
+                    .header__m-menu
+                        a(href="")
+                            img(src="img/logo-wave.svg", alt="").header--wave--left
+                        .close.row.aic.jcc
+                            span
+                        ul.header__m-menu__list.row
+                            li.header__m-menu__item
+                                a.header__m-menu__link(href="#about" id="") О нас
+                            li.header__m-menu__item
+                                a.header__m-menu__link(href="#catalog" id="") Каталог
+                            li.header__m-menu__item
+                                a.header__m-menu__link(href="#work" id="") Как мы работаем
+                            li.header__m-menu__item
+                                a.header__m-menu__link(href="#feedback" id="") Оставить заявку
+                            li.header__m-menu__item
+                                a.header__m-menu__link(href="#contacts" id="") Контакты
+                        .social.row.aic.jcc
+                            a(href="")
+                                i.icon-vk
+                            a(href="")
+                                i.icon-facebook
+                            a(href="")
+                                i.icon-youtube
+                    .header__phone 
+                .header__content-main
+                    .container
+                        .header__content-main--left
+                            h1 Индивидуальные корпоративные сувениры от производителя
+                            p Учтем все ваши пожелания и сделаем уникальные подарки и сувениры
+                            a(href="#special").btn-main Заказать 
+            section.why
+                .container
+                    .why__inner
+                        h2 Почему выбирают нас
+                        ul.why__list.row-wrap
+                            li.why__item
+                                .why__item-title.row.aic
+                                    i.icon-why1
+                                    span Индивидуальность изделий
+                                p.why__item-desc Мы производим сувениры и подарки собственной разработки. Вся продукция изготавливается на производственных мощностях нашей компании.
+                            li.why__item
+                                .why__item-title.row.aic
+                                    i.icon-why2
+                                    span Качество
+                                p.why__item-desc Мы постоянно работаем над повышением качества наших сувениров. Каждое изделие производится с использованием высококачественного сырья и на профессиональном оборудовании. 
+                            li.why__item
+                                .why__item-title.row.aic
+                                    i.icon-why3
+                                    span Гарантия
+                                p.why__item-desc Мы предоставляем гарантию полгода, на все наши изделия, при соблюдении правил надлежащего использования.
+                            li.why__item
+                                .why__item-title.row.aic
+                                    i.icon-why4
+                                    span Скидки
+                                p.why__item-desc Для постоянных и крупных клиентов, действует система скидок.  Действуют особые условия для рекламных агенств.
+            section.products#catalog
+                .container
+                    .products__inner
+                        h2 Наша продукция
+                        ul.products__list.row-wrap
+                            li.products__item
+                                a.products__link(href="")
+                                    .products__tooltip
+                                        img(src="img/logo-card.png", alt="")
+                                    .products__background.products__background-bottom
+                                        img(src="img/products/back1.svg", alt="")
+                                    .products__background.products__background-top
+                                        img(src="img/products/back2.png", alt="")
+                                    .products__item-top.row.jcc.aic
+                                        img(src="img/products/1.png", alt="")
+                                    .products__item-bottom
+                                        .products__item-title Магниты
+                                        .products__item-desc Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев
+                                        .products__item-amount от 43 руб / шт
+                            li.products__item
+                                a.products__link(href="")
+                                    .products__tooltip
+                                        img(src="img/logo-card.png", alt="")
+                                    .products__background.products__background-bottom
+                                        img(src="img/products/back1.svg", alt="")
+                                    .products__background.products__background-top
+                                        img(src="img/products/back2.png", alt="")
+                                    .products__item-top.row.jcc.aic
+                                        img(src="img/products/2.png", alt="")
+                                    .products__item-bottom
+                                        .products__item-title Брелоки
+                                        .products__item-desc Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев
+                                        .products__item-amount от 43 руб / шт
+                            li.products__item
+                                a.products__link(href="")
+                                    .products__tooltip
+                                        img(src="img/logo-card.png", alt="")
+                                    .products__background.products__background-bottom
+                                        img(src="img/products/back1.svg", alt="")
+                                    .products__background.products__background-top
+                                        img(src="img/products/back2.png", alt="")
+                                    .products__item-top.row.jcc.aic
+                                        img(src="img/products/2.png", alt="")
+                                    .products__item-bottom
+                                        .products__item-title Магниты
+                                        .products__item-desc Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев
+                                        .products__item-amount от 43 руб / шт
+            section.special#special
+                .container
+                    .special__inner
+                        .back-left.back
+                            img(src="img/special/left.svg", alt="")
+                        .back-right.back
+                            img(src="img/special/right.svg", alt="")
+                        .back-perc-top.back
+                            img(src="img/special/percent-top.svg", alt="")
+                        .back-perc-bottom.back
+                            img(src="img/special/percent-bottom.svg", alt="")
+                        h2.special__title Специальное предложение <br> для рекламных агенств
+                        .special__desc Оставьте свои данные и наш менеджер свяжется с вами в ближайшее время.
+                        form(action="" method="").special__form
+                            .special__form-inputs.row-wrap
+                                .special__form-input
+                                    input(type="text" name="name" placeholder="Имя" id="spec-name")
+                                    span введите имя
+                                .special__form-input
+                                    input(type="text" name="phone" placeholder="Телефон" id="spec-phone")
+                                    span некорректный телефон
+                                .special__form-input
+                                    input(type="text" name="email" placeholder="E-mail" id="spec-email")
+                                    span некорректный email
+                            button(type="submit").btn-main.special__form-btn Отправить
+                        .special__privacy
+                            p Нажимая кнопку «Отправить», вы соглашаетесь с 
+                                a(href="").js-privacy политикой конфиденциальности
+            section.work#work
+                .container
+                    .work__inner
+                        h2 Как мы работаем
+                        .work__row.row-wrap
+                            .work__left
+                                svg.work__left-circle.icon-spin(style='enable-background:new 0 0 846.2 846.2;' version='1.1' viewBox='0 0 846.2 846.2' x='0px' xmlns='http://www.w3.org/2000/svg' y='0px')
+                                    style.
+                                        .st01 {
+                                            fill: transparent;
+                                            stroke: #eff3f8;
+                                            stroke-miterlimit: 10;
+                                        }
+
+                                        .st2 {
+                                            fill: #eff3f8;
+                                            stroke: #eff3f8;
+                                            stroke-miterlimit: 10;
+                                        }
+                                    circle.st01(cx='423.1' cy='423.1' r='422.6')
+                                    circle.st01(cx='423.1' cy='423.1' r='374.7')
+                                    circle.st01(cx='423.1' cy='423.1' r='333.5')
+                                    circle.st2(cx='756.6' cy='160.4' r='14.6')
+                                .work__left-images
+                                    .work__left-images-item.work__left-images-item-one
+                                        img(src="img/work/1.png", alt="")
+                                    .work__left-images-item.work__left-images-item-two
+                                        img(src="img/work/2.png", alt="")
+                                    .work__left-images-item.work__left-images-item-three
+                                        img(src="img/work/3.png", alt="")
+                                    p Сувенирные магниты. Производство Компании Акристо
+                            .work__right
+                                ul.work__list
+                                    li.work__item
+                                        .work__item-top.row.aic
+                                            i.icon-how1
+                                            span Вы оставляете заявку
+                                        p.work__desc Вы можете связаться с нами любым удобным для вас способом.
+                                    li.work__item
+                                        .work__item-top.row.aic
+                                            i.icon-how2
+                                            span Уточнение заказа
+                                        p.work__desc Наш оператор связывается с вами для уточнения деталей заказа и отвечает на все ваши вопросы
+                                    li.work__item
+                                        .work__item-top.row.aic
+                                            i.icon-how3
+                                            span Оплата
+                                        p.work__desc Вы производите оплату удобным для вас способом и заказ переходит в стадию изготовления
+                                    li.work__item
+                                        .work__item-top.row.aic
+                                            i.icon-how4
+                                            span Доставка
+                                        p.work__desc Производится доставка вашего заказа выбранным вами способом. На продукт действует гарантия 1 месяц
+            section.about#about
+                img(src="img/about-back.png", alt="").background
+                .container
+                    .about__inner
+                        h2 О нас   
+                        .about__row.row-wrap
+                            .about__left
+                                p Много лет, мы занимаемся производством сувениров и подарков. Производим их из фарфора, дерева, металла, мрамора Креави®. 
+                                p Всю продукцию, мы изготавливаем у себя на производстве, в Санкт-Петербурге. Мы не работаем с каталогами других производителей, и не предлагаем нашему клиенту флешки, ежедневники, настенные календари. Мы разрабатываем и делаем оригинальную продукцию. Мы способны решить проблему индивидуальности сувенира.
+                                p За время жизни компании Акристо, мы внедрили в жизнь множество технологических процессов. Мы используем собственные заготовки для производства тарелок с сублимационным изображением. Мы можем изготовить брелок их металла, индивидуальной формы с небольшим тиражом. Мы в принципе, можем изготовить индивидуальные сувениры и подарки, небольшим тиражом, но это не отменяет наши возможности, производить сувениры в объемах десятков тысяч штук.
+                                p Мы стремимся, что бы наша продукция была украшением. Что бы тот человек, который ее получает, не клал ее в пыльный ящик, а с удовольствием применял в жизни, а те, у кого такого нет, немного завидовали ему.  
+                            .about__right
+                                .about__right-video
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cyvJGPsqGuc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        a.more(href="") показать еще
+                        a.btn-main.about__btn(href="#feedback") Связаться с нами
+            section.contacts#contacts
+                .container
+                    h2 Контакты
+                    .contacts__map
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4b5800fe7d217ab556e2820dd55aa53e6ae2730937ee0131d19629ba17798fb0&amp;source=constructor" width="100%" height="523" frameborder="0"></iframe>
+                        .contacts__map-info
+                            ul.contacts__map-info-list
+                                li.contacts__map-info-item
+                                    .contacts__map-info-item-title Адрес:
+                                    p Россия, Санкт-Петербург, Октябрьская набережная, 50
+                                li.contacts__map-info-item
+                                    .contacts__map-info-item-title Режим работы:
+                                    p пн-пт 9:00-18:00
+                                li.contacts__map-info-item
+                                    .contacts__map-info-item-title Телефон:
+                                    a(href="tel:8 (800) 770-74-99") 8 (800) 770-74-99
+                                li.contacts__map-info-item
+                                    .contacts__map-info-item-title E-mail:
+                                    a(href="mailto:akristo@mail.ru").email akristo@mail.ru
+                            p * - Бесплатно по всей территории России
+            section.feedback#feedback
+                .container
+                    .feedback__top
+                        form(action="" method="").feedback__form
+                            h2.feedback__form-title Возникли вопросы?
+                            .feedback__form-desc Напишите нам, и мы проконсультируем  
+                            .feedback__form-fields
+                                label(for="")
+                                    input(type="text" placeholder="Имя" id="feed-name")
+                                    span введите имя
+                                label(for="")
+                                    input(type="text" placeholder="Телефон" id="feed-phone")
+                                    span некорректный телефон
+                                label(for="")
+                                    input(type="text" placeholder="E-mail" id="feed-email")
+                                    span некорректный email
+                                textarea(placeholder="Комментарий")
+                            button(type="submit").btn-main.feedback__form-btn Отправить
+                            p.feedback__form-privacy Нажимая кнопку «Отправить», вы соглашаетесь с 
+                                a(href="").js-privacy политикой конфиденциальности
+        footer.footer
+            .footer-back
+                img(src="img/footer-back.png", alt="")
+            .container
+                .footer__row.row-wrap.aie
+                    .footer__left.row-wrap
+                        .footer__copy © Акристо, 2019
+                        a(href="").footer__privacy.js-privacy Политика конфиденциальности
+                    .footer__right.row.aie
+                        span Разработка сайта:
+                        a(href="https://www.alkodesign.ru/")
+                            img(src="img/alko-logo.svg", alt="")
+        .social__icons
+            a(href="")
+                i.icon-vk.social__icons-vk
+            a(href="")
+                i.icon-facebook.social__icons-fb
+            a(href="")
+                i.icon-youtube.social__icons-yt
+        .overlay
+        .popap
+            .popap__close
+                .close
+                    span
+            img(src="img/popap-wave.png", alt="").background
+            .popap__left
+                ul.popap__list
+                    li.popap__item
+                        img(src="img/products/2.png", alt="")
+                    li.popap__item
+                        img(src="img/products/2.png", alt="")
+                    li.popap__item
+                        img(src="img/products/2.png", alt="")
+                .c-slick-prev
+                    img(src="img/slick-prev.svg", alt="")
+                .c-slick-next
+                    img(src="img/slick-prev.svg", alt="")
+            .popap__right
+                .popap__right-title Магниты
+                p.popap__right-desc Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. 
+                p.popap__right-desc При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.
+                .popap__right-price 43 руб - 105 руб
+                a(href="#special").btn-main.popap__right__btn Оформить заявку 
+
+        .send-ok
+            img(src="img/send-ok-wave.png", alt="")
+            .close
+                span
+            .send-ok__title Ваше сообщение успешно отправлено!
+            .send-ok__desc Наши менеджеры свяжутся вами в ближайшее время
+
+        .send-ok.send-ok-back-call
+            img(src="img/send-ok-wave.png", alt="")
+            .close
+                span
+            .send-ok__title Спасибо ваша заявка на звонок принята
+            .send-ok__desc Наши менеджеры свяжутся вами в ближайшее время
+
+        .back-call
+            img(src="img/send-ok-wave.png", alt="")
+            .close
+                span
+            .back-call__title Наши специалисты позвонят вам в ближайшее время
+            form(action="").back-call__form
+                label(for="")
+                    input(type="text", name="" id="back-call-phone")
+                    span некорректный телефон
+                button(type="submit").btn-main.back-call__btn Отправить
+        .privacy
+            .close
+                span
+            p В целях соблюдения 152-ФЗ "о защите персональных данных"
+            p Присоединяясь к настоящему Соглашению и оставляя свои данные на Сайте hameleon.b-concept.ru (далее – Сайт), путем заполнения полей форм обратной связи Пользователь: 
+            ul
+                li подтверждает, что все указанные им данные принадлежат лично ему, 
+                li подтверждает и признает, что им внимательно в полном объеме прочитано Соглашение и условия обработки его персональных данных, указываемых им в полях форм обратной связи, текст соглашения и условия обработки персональных данных ему понятны; 
+                li дает согласие на обработку Сайтом предоставляемых в составе информации персональных данных в целях заключения между ним и Сайтом настоящего Соглашения, а также его последующего исполнения; 
+                li выражает согласие с условиями обработки персональных данных без оговорок и ограничений.
+                
+            p Пользователь дает свое согласие на обработку его персональных данных, а именно совершение действий, предусмотренных п. 3 ч. 1 ст. 3 Федерального закона от 27.07.2006 N 152-ФЗ "О персональных данных", и подтверждает, что, давая такое согласие, он действует свободно, своей волей и в своем интересе. Согласие Пользователя на обработку персональных данных является конкретным, информированным и сознательным. 
+            p Настоящее согласие Пользователя признается исполненным в простой письменной форме, на обработку следующих персональных данных: фамилии, имени, отчества; года рождения; места пребывания (город, область); номеров телефонов; адресов электронной почты (E-mail). 
+            p Пользователь, предоставляет hameleon.b-concept.ru право осуществлять следующие действия (операции) с персональными данными: сбор и накопление; хранение в течение установленных нормативными документами сроков хранения отчетности, но не менее трех лет, с момента даты прекращения пользования услуг Пользователем; уточнение (обновление, изменение); использование; уничтожение; обезличивание; передача по требованию суда, в т.ч., третьим лицам, с соблюдением мер, обеспечивающих защиту персональных данных от несанкционированного доступа. 
+            p Указанное согласие действует бессрочно с момента предоставления данных и может быть отозвано Вами путем подачи заявления администрации сайта с указанием данных, определенных ст. 14 Закона «О персональных данных». Отзыв согласия на обработку персональных данных может быть осуществлен путем направления Пользователем соответствующего распоряжения в простой письменной форме на адрес электронной почты (E-mail) hameleon@concept360.ru. 
+            p Сайт не несет ответственности за использование (как правомерное, так и неправомерное) третьими лицами Информации, размещенной Пользователем на Сайте, включая её воспроизведение и распространение, осуществленные всеми возможными способами. Сайт имеет право вносить изменения в настоящее Соглашение. При внесении изменений в актуальной редакции указывается дата последнего обновления. Новая редакция Соглашения вступает в силу с момента ее размещения, если иное не предусмотрено новой редакцией Соглашения. Ссылка на действующую редакцию всегда находится на страницах сайта: hameleon.b-concept.ru 
+            p К настоящему Соглашению и отношениям между пользователем и Сайтом, возникающим в связи с применением Соглашения подлежит применению право Российской Федерации.
+
+        script(src="js/jquery.min.js")
+        script(src="js/slick.min.js")
+        script(src="js/imask.min.js")
+        script(src="js/main.js")
+        

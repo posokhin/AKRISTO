@@ -1,0 +1,24 @@
+.btn-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+    width: 100%;
+    max-width: 213px;
+    height: 60px;
+    box-shadow: 0 22px 67px rgba(0, 0, 0, 0.2);
+    border-radius: 36px;
+    background-color: #8a1a1f;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+
+    &:hover{
+        background-color: lighten(#8a1a1f,10%);
+    }
+}
